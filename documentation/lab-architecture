@@ -1,0 +1,58 @@
+# Lab Architecture
+
+## Overview
+This lab simulates a small SOC (Security Operations Center) environment using virtual machines hosted in Oracle VirtualBox.
+
+The environment consists of:
+- A Wazuh SIEM server
+- A monitored Windows Server endpoint
+- A Kali Linux attacker machine
+
+---
+
+## Virtual Machines
+
+### 1. Wazuh Server
+- OS: Ubuntu Server LTS
+- Role: SIEM and centralized log management
+- Functions:
+  - Collects security logs
+  - Displays alerts and events
+  - Manages Wazuh agents
+
+---
+
+### 2. Windows Server 2022
+- Role: Monitored Windows endpoint
+- Functions:
+  - Generates Windows security events
+  - Sends logs to Wazuh using Wazuh Agent
+
+---
+
+### 3. Kali Linux
+- Role: Attacker/testing machine
+- Functions:
+  - Runs reconnaissance scans
+  - Generates security-related activity
+  - Simulates basic attacker behavior
+
+---
+
+## Network Configuration
+
+### Adapter 1
+- NAT
+- Used for internet connectivity
+
+### Adapter 2
+- Host-Only Adapter
+- Used for communication between virtual machines
+
+---
+
+## Security Workflow
+1. Kali Linux generates activity
+2. Windows endpoint records events
+3. Wazuh Agent forwards logs
+4. Wazuh Server analyzes and displays alerts
