@@ -150,7 +150,7 @@ Security Events
 
 Displays collected logs and security alerts.
 
-![]()
+![Security-Events](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/sescurity-events.png?raw=true)
 
 Failed Login Detection
 
