@@ -1,0 +1,21 @@
+### `future-improvements.md`
+
+markdown id="m4n5o6"
+# Future Improvements
+
+## Planned Enhancements
+- Sysmon integration
+- Advanced PowerShell logging
+- File Integrity Monitoring (FIM)
+- Custom Wazuh detection rules
+- Malware simulation using EICAR
+- Active Directory attack simulations
+- Splunk integration
+- Brute-force detection automation
+
+
+## Long-Term Goals
+- Build a more realistic enterprise SOC environment
+- Simulate advanced attacker techniques
+- Improve detection engineering skills
+- Expand monitoring coverage across multiple endpoints
