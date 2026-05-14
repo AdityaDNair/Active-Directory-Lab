@@ -191,3 +191,7 @@ Integrate Suricata IDS
 Add custom Wazuh rules
 Simulate ransomware behavior
 Forward logs to external storage
+
+## Disclaimer
+
+This project was created in an isolated virtual lab environment for educational and defensive cybersecurity purposes only.
