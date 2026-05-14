@@ -8,7 +8,6 @@ The environment consists of:
 - A monitored Windows Server endpoint
 - A Kali Linux attacker machine
 
----
 
 ## Virtual Machines
 
@@ -20,7 +19,6 @@ The environment consists of:
   - Displays alerts and events
   - Manages Wazuh agents
 
----
 
 ### 2. Windows Server 2022
 - Role: Monitored Windows endpoint
@@ -28,7 +26,6 @@ The environment consists of:
   - Generates Windows security events
   - Sends logs to Wazuh using Wazuh Agent
 
----
 
 ### 3. Kali Linux
 - Role: Attacker/testing machine
@@ -37,7 +34,6 @@ The environment consists of:
   - Generates security-related activity
   - Simulates basic attacker behavior
 
----
 
 ## Network Configuration
 
@@ -49,7 +45,6 @@ The environment consists of:
 - Host-Only Adapter
 - Used for communication between virtual machines
 
----
 
 ## Security Workflow
 1. Kali Linux generates activity
