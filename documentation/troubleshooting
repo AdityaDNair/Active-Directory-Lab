@@ -1,0 +1,49 @@
+
+---
+
+### `troubleshooting.md`
+
+```markdown id="g7h8i9"
+# Troubleshooting
+
+## Issue 1: Wazuh Agent Not Connecting
+### Problem
+The Windows agent failed to appear in the Wazuh dashboard.
+
+### Fix
+- Restarted Wazuh services
+- Verified IP connectivity
+- Reconfigured agent enrollment
+
+---
+
+## Issue 2: VirtualBox Network Problems
+### Problem
+Kali Linux could not communicate with Windows Server.
+
+### Fix
+- Added Host-Only adapters
+- Verified IP addresses
+- Enabled cable connection in VirtualBox settings
+
+---
+
+## Issue 3: Wazuh Enrollment Failure
+### Problem
+Agent registration failed on port 1515.
+
+### Fix
+- Enabled authd
+- Restarted Wazuh manager
+- Re-enrolled the agent
+
+---
+
+## Issue 4: Dashboard Access Problems
+### Problem
+Wazuh dashboard could not be reached from the host machine.
+
+### Fix
+- Configured Host-Only networking
+- Assigned internal IP addresses
+- Verified browser access
