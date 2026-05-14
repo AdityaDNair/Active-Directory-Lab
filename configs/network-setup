@@ -1,0 +1,12 @@
+Kali Linux:
+192.168.56.102
+
+Windows Server:
+192.168.56.106
+
+Wazuh Server:
+192.168.56.30
+
+Network Types:
+- NAT
+- Host-Only Adapter
