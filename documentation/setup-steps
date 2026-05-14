@@ -1,0 +1,24 @@
+# Setup Steps
+
+## 1. Virtual Machine Creation
+Created the following virtual machines in Oracle VirtualBox:
+- Ubuntu Server LTS
+- Windows Server 2022
+- Kali Linux
+
+---
+
+## 2. Network Configuration
+Configured:
+- NAT adapter for internet access
+- Host-Only adapter for internal communication
+
+---
+
+## 3. Wazuh Installation
+Installed Wazuh on Ubuntu Server using the official installation script.
+
+Commands used:
+```bash
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+sudo bash wazuh-install.sh -a
