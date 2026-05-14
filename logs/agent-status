@@ -1,0 +1,12 @@
+Agent Name: WIN11-CLIENT
+Status: Active
+Operating System: Windows Server 2022
+Connection: Connected to Wazuh Manager
+
+------------------------------------------------------------
+
+Wazuh Server:
+192.168.56.30
+
+Agent Communication:
+Successful log forwarding and event monitoring confirmed.
