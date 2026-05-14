@@ -162,7 +162,7 @@ Nmap Scan
 
 Shows reconnaissance activity from Kali Linux.
 
-![]()
+![Nmap-Scan](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/kali-nmap-scan.png?raw=true)
 
 VM Networking
 
