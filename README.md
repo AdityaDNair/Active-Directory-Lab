@@ -144,7 +144,7 @@ Agent Status
 
 Shows registered Windows endpoint information.
 
-![]()
+![Agent-Status](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/wazuh-agent-status.png?raw=true)
 
 Security Events
 
