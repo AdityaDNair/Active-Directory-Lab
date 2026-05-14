@@ -1,0 +1,27 @@
+Rule: Logon failure - Unknown user or bad password
+Level: 5
+Agent: WIN11-CLIENT
+Timestamp: 2026-05-14
+
+Description:
+Multiple failed login attempts detected on the monitored Windows endpoint.
+
+------------------------------------------------------------
+
+Rule: Wazuh agent disconnected
+Level: 3
+Agent: WIN11-CLIENT
+Timestamp: 2026-05-14
+
+Description:
+The Wazuh agent temporarily disconnected from the manager during troubleshooting and reconnected successfully afterward.
+
+------------------------------------------------------------
+
+Rule: Windows Logon Success
+Level: 3
+Agent: WIN11-CLIENT
+Timestamp: 2026-05-14
+
+Description:
+Successful Windows authentication event detected and forwarded to Wazuh.
