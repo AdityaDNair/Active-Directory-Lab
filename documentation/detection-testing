@@ -1,0 +1,20 @@
+# Detection Testing
+
+## 1. Failed Login Detection
+### Test
+Attempted multiple incorrect Windows logins.
+
+### Result
+Wazuh generated:
+- Authentication failure alerts
+- Logon failure events
+
+---
+
+## 2. Nmap Reconnaissance Scan
+### Test
+Used Kali Linux to scan the Windows Server.
+
+### Command
+```bash
+nmap -A 192.168.56.106
