@@ -1,0 +1,15 @@
+Executed PowerShell Commands:
+- whoami
+- Get-Process
+- ipconfig
+- net user
+
+------------------------------------------------------------
+
+Purpose:
+Simulated basic post-compromise reconnaissance activity commonly observed in Windows environments.
+
+------------------------------------------------------------
+
+Observed Outcome:
+Windows activity logs and related events were forwarded to the Wazuh SIEM dashboard for monitoring and analysis.
