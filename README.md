@@ -168,7 +168,7 @@ VM Networking
 
 Displays isolated lab network communication.
 
-![]()
+![VM-Networking](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/vm-networking.png?raw=true)
 
 ## Learning Outcomes
 
