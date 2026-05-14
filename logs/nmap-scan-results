@@ -1,0 +1,21 @@
+Starting Nmap 7.95
+
+Nmap scan report for 192.168.56.106
+Host is up.
+
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+OS detection performed.
+Service version detection enabled.
+
+Scan Type:
+nmap -A 192.168.56.106
+
+------------------------------------------------------------
+
+Purpose:
+Reconnaissance simulation performed from Kali Linux against the monitored Windows endpoint.
