@@ -156,7 +156,7 @@ Failed Login Detection
 
 Demonstrates authentication failure monitoring.
 
-![]()
+![Failed-Login-Detection](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/failed-login-alert.png?raw=true)
 
 Nmap Scan
 
