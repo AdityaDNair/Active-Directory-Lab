@@ -138,7 +138,7 @@ Wazuh Dashboard
 
 Displays overall agent monitoring and alert analytics.
 
-![]()
+![Wazuh-Dashboard](https://github.com/AdityaDNair/Active-Directory-Lab/blob/main/screenshots/wazuh-dashboard.png?raw=true)
 
 Agent Status
 
